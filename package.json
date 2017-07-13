@@ -49,9 +49,10 @@
   },
   "dependencies": {
     "codem-isoboxer": "^0.3.3",
+    "dashjs": "git+https://github.com/makeen-project/dash.js.git",
+    "deep-equal": "^1.0.1",
     "imsc": "^1.0.0-beta.3",
-    "round10": "^1.0.3",
-    "deep-equal": "^1.0.1"
+    "round10": "^1.0.3"
   },
   "repository": {
     "type": "git",
