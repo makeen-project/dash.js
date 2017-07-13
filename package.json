@@ -1,5 +1,5 @@
 {
-  "name": "dashjs",
+  "name": "makeen/dashjs",
   "version": "2.6.0",
   "description": "A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.",
   "main": "build/es5/index.js",
