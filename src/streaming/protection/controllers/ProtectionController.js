@@ -530,8 +530,8 @@ function ProtectionController(config) {
         updateHeaders(keySystem.getRequestHeadersFromMessage(message));
 
         // Set withCredentials property from protData
-        if (protData && protData.withCredentials) {
-            xhr.withCredentials = true;
+        if (protData && protData.hasOwnProperty('withCredentials')) {
+            xhr.withCredentials = protData.withCredentials;
         }
 
         xhr.send(keySystem.getLicenseRequestFromMessage(message));
